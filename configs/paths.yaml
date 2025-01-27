@@ -1,0 +1,44 @@
+# config/paths.yaml
+
+# Data paths
+data:
+  raw: "data/raw/"
+  processed: "data/processed/"
+  external: "data/external/"
+
+# Model paths
+models:
+  saved_models: "models/saved_models/"
+  predictions: "models/predictions/"
+
+# Log paths
+logs:
+  training_logs: "logs/training.log"
+
+# Notebook paths
+notebooks:
+  exploratory: "notebooks/exploratory/"
+  experiments: "notebooks/experiments/"
+
+# Source code paths
+src:
+  data: "src/data/"
+  features: "src/features/"
+  models: "src/models/"
+  visualization: "src/visualization/"
+  utils: "src/utils/"
+
+# Orchestration pipeline paths
+pipelines: "pipelines/"
+
+# Pipeline steps paths
+pipelines: "steps/"
+
+# Test paths
+tests: "tests/"
+
+# Documentation paths
+docs: "docs/"
+
+# Deployment app paths
+apps: "app/"
